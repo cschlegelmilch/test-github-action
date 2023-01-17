@@ -13,11 +13,11 @@ jobs:
       - uses: actions/checkout@v3
       - uses: ./
         with:
-          milliseconds: 2000
+          milliseconds: 3000
 
   run-remotely:
     runs-on: ubuntu-latest
     steps:
-      - uses: cschlegelmilch/test-github-action@v1
+      - uses: cschlegelmilch/test-github-action@v2
         with:
           milliseconds: 1000
