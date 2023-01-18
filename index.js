@@ -12,7 +12,7 @@ async function run() {
         await wait(parseInt(ms));
         core.info((new Date()).toTimeString());
 
-        core.info('Done');
+        core.info('Done some more.');
 
         core.setOutput('time', new Date().toTimeString());
     } catch (error) {
